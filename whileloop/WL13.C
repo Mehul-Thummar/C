@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i=2,n=0;
+    clrscr();
+
+      while(i<=10)
+      {
+      n=n+i;
+      printf("%d ",i);
+      i+=2;
+      }
+      printf("\ntotal is:%d",n);
+
+      getch();
+}
