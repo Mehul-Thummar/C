@@ -7,20 +7,22 @@ private:
     int age;
     string city, name;
 
-    public:
+public:
     person()
     {
-        cout<<"Enter the Name:";
-        cin>>name;
-        cout<<"Enter the City:";
-        cin>>city;
-        cout<<"Enter the Age:";
-        cin>>age;
-
+        cout << "Enter the Name:";
+        cin >> name;
+        cout << "Enter the City:";
+        cin >> city;
+        cout << "Enter the Age:";
+        cin >> age;
     }
-     void setname(string n)
+
+    // setter:
+
+    void setname(string n)
     {
-        name= n ;
+        name = n;
     }
     void setcity(string c)
     {
@@ -31,19 +33,20 @@ private:
         age = a;
     }
 
+    // getter:
+
     void getname()
     {
-        cout <<"PERSON NAME:" << name << endl;
+        cout << "PERSON NAME:" << name << endl;
     }
     void getcity()
     {
-        cout <<"PERSON CITY:" << city << endl;
+        cout << "PERSON CITY:" << city << endl;
     }
     void getage()
     {
-        cout <<"PERSON AGE:" << age << endl;
+        cout << "PERSON AGE:" << age << endl;
     }
-
 };
 
 int main()
@@ -51,5 +54,5 @@ int main()
     person p1;
     person p2;
 
-return 0;
+    return 0;
 }
