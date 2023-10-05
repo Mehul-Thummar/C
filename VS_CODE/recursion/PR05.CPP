@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int a;
 int sum=0;
@@ -14,9 +15,9 @@ int main()
 {
     for (int i = 0; i < 5; i++)
     {
-        printf("enter value : ",i);
-        scanf("%d",&a);
+        cout<< "enter value : ";
+        cin>> a;
         sum=sum+a;
     }
-    printf("total sum=%d",sum);
+    cout<< "total sum" <<sum;
 }

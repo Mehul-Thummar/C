@@ -1,4 +1,4 @@
-# include <stdio.h>
+# include <iostream>
 void data(int p,int t,int r)
 {
     int area;

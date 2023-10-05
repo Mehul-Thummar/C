@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 
 int setdata(int i,int n) 
 {
@@ -26,16 +26,16 @@ int main()
 {
     int i,n;
 
-    printf("Enter a value:");
-    scanf("%d", &n);
+    cout<< "Enter a value:";
+    cin>> n;
 
     if (setdata(i,n)) 
     {
-        printf("%d Number is perfect.\n",n);
+        cout<< n << " Is perfect number.";
     } 
     else 
     {
-        printf("%d Number is not perfect\n",n);
+        cout<< n << " Is not perfect number.";
     }
 
     

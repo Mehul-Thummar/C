@@ -1,15 +1,17 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 int getsub()
 {
     int eng,guj,sci,total;
-    printf("enter eng marks: ");
-    scanf("%d",&eng);
+    cout<< "enter eng marks: ";
+    cin>> eng;
 
-    printf("enter guj marks: ");
-    scanf("%d",&guj);
+    cout<< "enter guj marks: ";
+    cin>> guj;
         
-    printf("enter sci marks: ");
-    scanf("%d",&sci);
+    cout<< "enter sci marks: ";
+    cin>> sci;
 
     total=guj+eng+sci;
     return total;
@@ -18,8 +20,8 @@ int calcul(int totalmarks)
 {
     int per=totalmarks*100/300;
 
-    printf("total = %d\n",totalmarks);
-    printf("per = %d\n",per);
+    cout<< "total = " << totalmarks;
+    cout<< "\nper = " << per <<".00";
 
     return per;
 }

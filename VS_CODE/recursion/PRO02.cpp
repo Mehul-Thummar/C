@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int array[20];
 
 int test (int a)
 {
-    printf("%d, ",array[a]);
+    cout<< array[a] << ",";
 
     if(a==19)
     {

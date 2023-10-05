@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 int main()
 {
        float i=0.5,n=10,j=0.5;

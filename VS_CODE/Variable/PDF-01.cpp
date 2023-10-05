@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int setdata(int n)
 {
@@ -19,11 +20,11 @@ int main()
 {
     int i,n;
     
-    printf("Enter a number:");
-    scanf("%d",&n);
+    cout<< "Enter a number:";
+    cin>> n;
     
     i = setdata(n);
     
-    printf("Reverse number is: %d\n", i);
+    cout<< "Reverse number is:" << i;
     
 }

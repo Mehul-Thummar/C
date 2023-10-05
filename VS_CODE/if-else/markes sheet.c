@@ -1,5 +1,5 @@
 
- #include <stdio.h>
+ #include <iostream>
 
 void setdata(int marks)
 {

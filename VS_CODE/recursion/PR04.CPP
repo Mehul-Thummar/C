@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int largestno (int arr[],int num)
 {
@@ -32,7 +33,7 @@ int main()
     int largest=largestno(arr,8);
     int smallest = smallestno(arr,20);
 
-    printf ("Largest Nummber Is : %d\n",largest);
-    printf ("Smallest Number Is : %d\n",smallest);
+    cout<< ("Largest Nummber Is : ")<< largest <<"\n";
+    cout<< ("Smallest Number Is : ")<< smallest;
     return 0 ;
 }
