@@ -24,7 +24,6 @@ public:
 
         cout << "GUJARATI:";
         cin >> g;
-        
     }
 
     student(int e, int c, int s, int g)
@@ -42,12 +41,14 @@ public:
 
 int main()
 {
-    int e, c, s, g,t;
-    
+    int e, c, s, g, t;
     float p;
     student s1;
     student s2(e, c, s, g);
     student s3(p);
+    student s4;
+    student s5(e, c, s, g);
+    student s6(p);
 
     return 0;
 }
