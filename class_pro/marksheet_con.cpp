@@ -46,9 +46,7 @@ int main()
     student s1;
     student s2(e, c, s, g);
     student s3(p);
-    student s4;
-    student s5(e, c, s, g);
-    student s6(p);
+    
 
     return 0;
 }

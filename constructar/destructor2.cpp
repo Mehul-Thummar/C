@@ -17,7 +17,10 @@ public:
         cout << "Enter the Age:";
         cin >> age;
     }
-    
+    ~person()
+    {
+        cout<< "Person " <<name <<" is destructed"<<"\n";
+    }
 
     // setter:
 
@@ -52,8 +55,7 @@ public:
 
 int main()
 {
-    person p1;
-    person p2;
+    person p1,p2,p3;
 
     return 0;
 }
