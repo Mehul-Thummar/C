@@ -20,7 +20,6 @@ public:
         cin >> d;
         b = d;
         cout << "Your Total Amount = " << b;
-        
     }
 
     void with() // withdral amount
