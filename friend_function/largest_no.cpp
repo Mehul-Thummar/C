@@ -12,10 +12,6 @@ public:
         a = c;
         b = d;
     }
-    int getdata()
-    {
-        return a, b;
-    }
 };
 
 larg add(larg x, larg y)
@@ -32,21 +28,21 @@ int main()
     int a, b;
     larg c, e;
 
-    cout << "Enter a Valu A :";
+    cout << "Enter value of A : ";
     cin >> a;
 
-    cout << "Enter a Valu B :";
+    cout << "Enter value of B : ";
     cin >> b;
 
     c.setdata(a, b);
     e = add(c, e);
-    cout << e.getdata();
+
     if (a > b)
     {
-        cout << "A is largest."<<endl;
+        cout << "A is largest." << endl;
     }
     else
     {
-        cout << "B is largest."<<endl;
+        cout << "B is largest." << endl;
     }
 }
