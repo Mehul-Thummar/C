@@ -7,7 +7,7 @@ class rect
     int l, w;
 
 public:
-    void setdata(int a, int b, )
+    void setdata(int a, int b)
     {
         l = a;
         w = b;
@@ -39,6 +39,6 @@ int main()
     e.setdata(6, 9);
     cout << "area of rectrangle e is: " << e.getdata() << endl;
 
-    c = add(a, b, c, d, e); // 7 7
+    c = add(a, b, d, e); // 7 7
     cout << "area of rectrangle c is: " << c.getdata() << endl;
 }
