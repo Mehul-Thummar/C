@@ -30,17 +30,12 @@ public:
     }
 };
 
-class Derived2 : public Base
+class Derived2 : public Derived1
 {
 protected:
     int i, j;
 
 public:
-    void setj()
-    {
-        cout << "Enter Value: ";
-        cin >> j;
-    }
     void table()
     {
         j = n;
@@ -53,13 +48,15 @@ public:
 
 int main()
 {
-    Derived1 d1;
-    d1.setn();
-    d1.setfact();
-
-    cout << "\n";
 
     Derived2 d2;
-    d2.setj();
+    d2.setn();
+    d2.setfact();
+    cout << "\n";
+    // d2.setj();
     d2.table();
+
+    // Derived1 d1;
+    // d1.setn();
+    // d1.setfact();
 }
