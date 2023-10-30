@@ -24,7 +24,7 @@ public:
         cout << "Enter Deposit Amount = ";
         cin >> d;
         b = 1000 + d;
-        cout << "Your Total Amount = " << b;
+        cout << "Your Total Balance = " << b;
         cout << "\n---------------------------------\n";
     }
 
@@ -52,7 +52,7 @@ int main()
     bankaccount b1(a, b, c, d);
     cout << "Enter Type Operate: ";
     cin >> i;
-    if (i == "balance")
+    if (i == "deposit")
     {
         b1.bal();
     }
