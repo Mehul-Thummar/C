@@ -7,7 +7,7 @@ int main()
 	int total;
 
 	printf("enter value:");
-	scanf("%[^\n]s",&str);
+	scanf("%d[^\n]s",&str);
 	
 	for(int i=0;str[i]!='\0';i++)
 	{

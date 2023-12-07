@@ -6,7 +6,7 @@ int main()
 	char str3[100];
 	int i=0,j=0;
 	printf("enter str value:");
-	scanf("%s[^\n]s",&str1);
+	scanf("%s",&str1);
 
 	printf("enter str value:");
 	scanf("%s",&str2);
